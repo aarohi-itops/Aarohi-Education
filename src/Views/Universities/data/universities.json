@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "name": "Ledra College",
+    "location": "Nicosia, Cyprus",
+    "image": "/assets/LIDRA%20images/Ledra-College.webp",
+    "ranking": "Established 2007",
+    "description": "Private college offering UK qualifications in a modern, multicultural learning environment with strong industry links.",
+    "programs": [
+      "Computer Science",
+      "Business & Management",
+      "Psychology",
+      "MBA"
+    ],
+    "duration": "3-4 years",
+    "type": "bachelors",
+    "category": "Private College",
+    "overview": [
+      "Ledra College provides students with high-quality education through a blend of theory and practical experience within a multicultural academic environment.",
+      "Since 2007, the college has been registered and approved by the Ministry of Education in Cyprus and supports students with academic and professional advising during and after their studies.",
+      "All campuses in Nicosia offer modern, safe, and innovative learning spaces with world-class facilities and industry-aligned training environments."
+    ],
+    "vision": "Ledra College aims to transform lives through comprehensive, entrepreneurial education that builds academic knowledge, personal skills, and professional confidence.",
+    "strengths": [
+      "Personalized support in a close-knit campus community",
+      "Small class sizes with active participation",
+      "Dedicated faculty focused on teaching and research",
+      "Detailed feedback and mentoring on written work",
+      "Direct interaction with professors and tailored advising",
+      "Collaborative research opportunities for students",
+      "Recognition of individual achievements",
+      "Strong industry connections and practical training"
+    ],
+    "programsDetailed": {
+      "diplomas": [
+        {
+          "name": "Aircraft Maintenance",
+          "link": "https://ledra.ac.cy/courses/diplomas/aircraft-maintenance/"
+        },
+        {
+          "name": "Automotive Maintenance & Repair",
+          "link": "https://ledra.ac.cy/courses/diplomas/automotive-maintenance-repair/"
+        },
+        {
+          "name": "Digital Marketing",
+          "link": "https://ledra.ac.cy/courses/diplomas/digital-marketing/"
+        },
+        {
+          "name": "Food & Beverage Manager",
+          "link": "https://ledra.ac.cy/courses/diplomas/food-beverage-manager/"
+        },
+        {
+          "name": "Food Safety in Catering",
+          "link": "https://ledra.ac.cy/courses/diplomas/food-safety-in-catering/"
+        },
+        {
+          "name": "Hairdressing",
+          "link": "https://ledra.ac.cy/courses/diplomas/hairdressing/"
+        },
+        {
+          "name": "Mobile & Web Application Development",
+          "link": "https://ledra.ac.cy/courses/diplomas/mobile-web-application-development/"
+        },
+        {
+          "name": "Professional Chef",
+          "link": "https://ledra.ac.cy/courses/diplomas/professional-chef/"
+        },
+        {
+          "name": "Professional Pastry Chef",
+          "link": "https://ledra.ac.cy/courses/diplomas/professional-pastry-chef/"
+        }
+      ],
+      "undergraduate": [
+        {
+          "name": "Accounting & Finance",
+          "link": "https://ledra.ac.cy/?page_id=231068"
+        },
+        {
+          "name": "Business and Management",
+          "link": "https://ledra.ac.cy/courses/undergraduate-courses/business-management/"
+        },
+        {
+          "name": "Computer Science",
+          "link": "https://ledra.ac.cy/?page_id=231081"
+        },
+        {
+          "name": "International Relations, Global Economy & Strategy",
+          "link": "https://ledra.ac.cy/courses/undergraduate-courses/international-relations-global-economy-strategy/"
+        },
+        {
+          "name": "International Tourism and Hospitality Management",
+          "link": "https://ledra.ac.cy/?page_id=231839"
+        },
+        {
+          "name": "Law",
+          "link": "https://ledra.ac.cy/courses/undergraduate-courses/law/"
+        },
+        {
+          "name": "Psychology",
+          "link": "https://ledra.ac.cy/courses/undergraduate-courses/psychology/"
+        }
+      ],
+      "postgraduate": [
+        {
+          "name": "MBA Master of Business Administration",
+          "link": "https://ledra.ac.cy/courses/postgraduate-courses/mba-business-administration/"
+        },
+        {
+          "name": "MSc Cybersecurity",
+          "link": "https://ledra.ac.cy/?page_id=231804"
+        },
+        {
+          "name": "MSc Tourism and Hospitality",
+          "link": "https://ledra.ac.cy/?page_id=231811"
+        },
+        {
+          "name": "PGCE Education",
+          "link": "https://ledra.ac.cy/?page_id=231821"
+        }
+      ]
+    },
+    "languageRequirements": {
+      "foundation": ["IELTS 4.5 overall for foundation entry"],
+      "undergraduate": [
+        "IELTS 6.0 overall (or equivalent)",
+        "Students without certificates can join EAP courses"
+      ],
+      "postgraduate": [
+        "IELTS 6.5+ overall (or equivalent)",
+        "Students without certificates can join EAP courses"
+      ],
+      "note": "English language proficiency is required for UK qualifications. Equivalencies are accepted."
+    },
+    "admissions": {
+      "undergraduate": [
+        "High School Leaving Certificate, or",
+        "4 IGCSEs and a relevant foundation year, or",
+        "3 A-Levels in relevant subjects",
+        "Personal statement",
+        "Academic reference",
+        "ID / Passport"
+      ],
+      "postgraduate": [
+        "Bachelor degree from a recognized institution",
+        "Academic transcripts",
+        "Personal statement",
+        "2 academic references",
+        "CV",
+        "ID / Passport"
+      ],
+      "matureApplicants": "Applicants with high school certificates but no further official qualifications may be considered for exceptional admission based on relevant practical experience.",
+      "notes": [
+        "Special requirements may apply for specific departments.",
+        "Contact the admissions team if you hold different qualifications."
+      ]
+    },
+    "contact": {
+      "address": "60 Athalassas Ave, 2023 Strovolos, Nicosia, Cyprus",
+      "phone": "+357 22 560 000",
+      "website": "https://ledra.ac.cy/about/the-college/",
+      "mapUrl": "https://www.google.com/maps/place/Ledra+College/@35.1466199,33.354888,18.54z/data=!4m5!3m4!1s0x0:0x94c6c462f289f15!8m2!3d35.14683!4d33.3548569"
+    },
+    "gallery": [
+      "/assets/LIDRA%20images/Lidra-College.png",
+      "/assets/LIDRA%20images/lidra-library.jpg",
+      "/assets/LIDRA%20images/lidra-cafe.webp",
+      "/assets/LIDRA%20images/life-at-lidra.jpg"
+    ]
+  }
+]
