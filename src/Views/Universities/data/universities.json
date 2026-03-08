@@ -166,5 +166,132 @@
       "/assets/LIDRA%20images/lidra-cafe.webp",
       "/assets/LIDRA%20images/life-at-lidra.jpg"
     ]
-  }
+  },
+
+  {
+  "id": 2,
+  "name": "University of Central Lancashire (UCLan Cyprus)",
+  "location": "Larnaka, Cyprus",
+  "image": "/assets/UCLAN images/uclan-cyprus.webp",
+  "ranking": "Established 1828",
+  "description": "Earn a UK Degree from the University of Central Lancashire at the Cyprus Campus",
+  "programs": [
+    "Information Technology",
+    "Business & Management",
+    "Law",
+    "MBA"
+  ],
+  "duration": "3-4 years",
+  "type": "bachelors",
+  "category": "Private University",
+  "overview": [
+    "UCLan Cyprus is the Cyprus campus of the University of Central Lancashire, a UK university established in 1828. Located in Larnaka, the campus offers modern facilities including lecture theatres, computer labs, a law Moot Court, a library, student accommodation, fitness facilities, and collaborative study spaces."
+  ],
+  "vision": "UCLan Cyprus aims to deliver high-quality British education, combining academic excellence with professional skills to prepare graduates for global careers.",
+  "strengths": [
+    "British university degree awarded by the University of Central Lancashire (UK)",
+    "Modern campus with advanced learning facilities",
+    "Small class sizes with strong academic support",
+    "Highly qualified international faculty",
+    "Industry-focused programs and internships",
+    "Opportunities for study exchange with the UK campus",
+    "Strong employability focus and career development",
+    "Multicultural international student environment"
+  ],
+  "programsDetailed": {
+    "diplomas": [],
+    "undergraduate": [
+      {
+        "name": "BA (Hons) Business Administration",
+        "link": "https://www.uclancyprus.ac.cy/course/ba-hons-business-administration/"
+      },
+      {
+        "name": "BSc (Hons) Computer Science",
+        "link": "https://www.uclancyprus.ac.cy/course/bsc-hons-computer-science/"
+      },
+      {
+        "name": "LLB (Hons) Law",
+        "link": "https://www.uclancyprus.ac.cy/course/llb-hons-law/"
+      },
+      {
+        "name": "BA (Hons) Accounting and Finance",
+        "link": "https://www.uclancyprus.ac.cy/course/ba-hons-accounting-finance/"
+      },
+      {
+        "name": "BA (Hons) Hospitality and Tourism Management",
+        "link": "https://www.uclancyprus.ac.cy/course/ba-hons-hospitality-tourism-management/"
+      },
+      {
+        "name": "BA (Hons) English Language and Literature",
+        "link": "https://www.uclancyprus.ac.cy/course/ba-hons-english-language-literature/"
+      }
+    ],
+    "postgraduate": [
+      {
+        "name": "MBA Master of Business Administration",
+        "link": "https://www.uclancyprus.ac.cy/course/mba-master-of-business-administration/"
+      },
+      {
+        "name": "MSc Cybersecurity",
+        "link": "https://www.uclancyprus.ac.cy/course/msc-cybersecurity/"
+      },
+      {
+        "name": "LLM Master of Laws",
+        "link": "https://www.uclancyprus.ac.cy/course/llm-master-of-laws/"
+      },
+      {
+        "name": "MSc Digital Marketing",
+        "link": "https://www.uclancyprus.ac.cy/course/msc-digital-marketing/"
+      }
+    ]
+  },
+  "languageRequirements": {
+    "foundation": ["IELTS 4.5 overall for foundation entry"],
+    "undergraduate": [
+      "IELTS 6.0 overall (or equivalent)",
+      "Students without certificates can enroll in English preparatory courses"
+    ],
+    "postgraduate": [
+      "IELTS 6.5 overall (or equivalent)",
+      "Students without certificates can enroll in English preparatory courses"
+    ],
+    "note": "English language proficiency is required for all programs taught in English."
+  },
+  "admissions": {
+    "undergraduate": [
+      "High School Leaving Certificate or equivalent",
+      "Relevant foundation year (if required)",
+      "Personal statement",
+      "Academic reference",
+      "Passport / ID copy"
+    ],
+    "postgraduate": [
+      "Bachelor degree from a recognized university",
+      "Academic transcripts",
+      "Personal statement",
+      "Academic references",
+      "CV",
+      "Passport / ID copy"
+    ],
+    "matureApplicants": "Applicants with relevant professional experience may be considered on a case-by-case basis.",
+    "notes": [
+      "Specific programs may have additional requirements.",
+      "Applicants with different qualifications should contact the admissions office."
+    ]
+  },
+  "contact": {
+    "address": "12–14 University Avenue, Pyla, 7080 Larnaka, Cyprus",
+    "phone": "+357 24 694000",
+    "website": "https://www.uclancyprus.ac.cy/",
+    "mapUrl": "https://www.google.com/maps/place/UCLan+Cyprus"
+  },
+  "gallery": [
+      "/assets/LIDRA%20images/Lidra-College.png",
+      "/assets/LIDRA%20images/lidra-library.jpg",
+      "/assets/LIDRA%20images/lidra-cafe.webp",
+      "/assets/LIDRA%20images/life-at-lidra.jpg"
+  ]
+}
 ]
+
+
