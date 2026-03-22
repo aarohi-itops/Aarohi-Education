@@ -13,7 +13,7 @@ const DynamicBackgroundPaths = dynamic(
 export default function HeroSection() {
   return (
     <DynamicBackgroundPaths
-      title="Explore Universities in Cyprus"
+      title="Explore Top Universities"
       subtitle="Discover top-tier educational institutions"
       description="Discover top-tier educational institutions offering world-class programs for both undergraduate and graduate studies"
       showButton={false}

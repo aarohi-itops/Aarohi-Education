@@ -18,7 +18,7 @@ const Features = () => {
     {
       title: "Partner Universities",
       description:
-        "Access 7 top-ranked Cyprus universities with various programs and specializations.",
+        "Accesstop-ranked universities with various programs and specializations.",
     },
     {
       title: "Scholarship Support",
@@ -43,12 +43,12 @@ const Features = () => {
         {/* Section Header */}
         <div className="text-center mb-8 md:mb-12 lg:mb-16">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-black mb-3 sm:mb-4 px-4">
-            Features That Make{" "}
-            <span className="text-primary-600">The Difference</span>
+            International Study Destinations 
+            
+            <span className="text-primary-600">We advise and facilitate placements in globally recognized education systems, with specialization in The Difference</span>
           </h2>
           <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto px-4">
-            Comprehensive support at every step of your educational journey to
-            Cyprus.
+            Selected European and international destinations.
           </p>
         </div>
 

@@ -17,27 +17,27 @@ import { PiTiktokLogo } from "react-icons/pi";
 const socialLinks = [
   {
     icon: Linkedin,
-    href: "https://www.linkedin.com/company/aarohi-skill-academy/",
+    href: "https://www.linkedin.com/company/aarohi-education-consultancy/",
     ariaLabel: "LinkedIn",
   },
   {
     icon: Instagram,
-    href: "https://www.instagram.com/aarohiskillacademy",
+    href: "https://www.instagram.com/aarohieducation.ho/",
     ariaLabel: "Instagram",
   },
   {
     icon: Facebook,
-    href: "https://www.facebook.com/aarohiskillacademy",
+    href: "https://www.facebook.com/aarohieduconsultancy",
     ariaLabel: "Facebook",
   },
   {
     icon: Youtube,
-    href: "https://youtube.com/@aarohiskillacademy",
+    href: "https://www.youtube.com/@AarohiEducationConsultancy",
     ariaLabel: "Youtube",
   },
   {
     icon: PiTiktokLogo,
-    href: "https://www.tiktok.com/@aarohi_skill_academy",
+    href: "https://www.tiktok.com/@aarohi_educonsultancy",
     ariaLabel: "Tiktok",
   },
 ];
@@ -129,7 +129,7 @@ export default function Footer() {
               </div>
 
               <p className="text-xs text-white mb-3 sm:mb-4 leading-relaxed max-w-xs">
-                Your pathway to world-class education at top Cyprus
+                Your pathway to world-class education at top
                 universities. Expert guidance for a brighter future.
               </p>
 
@@ -145,7 +145,7 @@ export default function Footer() {
                   >
                     <social.icon
                       size={16}
-                      className="sm:w-[18px] sm:h-[18px]"
+                      className="sm:w-[25px] sm:h-[25px]"
                     />
                   </a>
                 ))}

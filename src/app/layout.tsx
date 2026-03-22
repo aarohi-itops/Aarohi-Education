@@ -13,11 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Aarohi Education - Study in Cyprus Universities",
+  title: "Aarohi Education - Study in Top Universities",
   description:
-    "Your pathway to world-class education at Cyprus universities. Expert guidance for Nepali students seeking admission to top universities.",
+    "Your pathway to world-class education at Top universities. Expert guidance for Nepali students seeking admission to top universities.",
   keywords:
-    "Cyprus education, admission consultant, university admission, study abroad Nepal",
+    "Top universities, admission consultant, university admission, study abroad Nepal",
 };
 
 export default function RootLayout({

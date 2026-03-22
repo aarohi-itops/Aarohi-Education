@@ -132,7 +132,7 @@ export const faqCategories: FAQCategory[] = [
         category: "financial",
         question: "Are scholarships available for international students?",
         answer:
-          "Yes, most Cyprus universities offer merit-based and need-based scholarships. We provide guidance on available scholarships and help you apply for them to reduce your financial burden.",
+          "Yes, most Top universities offer merit-based and need-based scholarships. We provide guidance on available scholarships and help you apply for them to reduce your financial burden.",
       },
       {
         id: "financial-4",

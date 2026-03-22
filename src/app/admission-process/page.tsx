@@ -6,13 +6,13 @@ const AdmissionProcess = dynamic(
 );
 
 export const metadata: Metadata = {
-  title: "Admission Process - Aarohi Skill Academy | Cyprus Universities",
+  title: "Admission Process - Aarohi Skill Academy | Top Universities",
   description:
-    "Follow our 6-step admission process to get accepted into top Cyprus universities. Expert guidance from initial inquiry to departure support.",
+    "Follow our 6-step admission process to get accepted into top universities. Expert guidance from initial inquiry to departure support.",
   keywords: [
     "admission process",
     "university admission",
-    "Cyprus universities",
+    "top universities",
     "application process",
     "student visa",
     "admission counseling",
@@ -20,15 +20,15 @@ export const metadata: Metadata = {
   robots: "index, follow",
   authors: [{ name: "Aarohi Skill Academy" }],
   openGraph: {
-    title: "Admission Process - Aarohi Skill Academy | Cyprus Universities",
+    title: "Admission Process - Aarohi Skill Academy | Top Universities",
     description:
-      "Follow our 6-step admission process to get accepted into top Cyprus universities.",
+      "Follow our 6-step admission process to get accepted into top universities.",
     type: "website",
     url: "https://aahiriskillacademy.com/admission-process",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Admission Process - Aarohi Skill Academy | Cyprus Universities",
+    title: "Admission Process - Aarohi Skill Academy | Top Universities",
     description:
       "6-step admission process with expert guidance from initial inquiry to departure support.",
   },

@@ -25,7 +25,7 @@ const Universities = () => {
         <div className="text-center mb-8 md:mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-black mb-4">
             Study at{" "}
-            <span className="text-primary-600">Top Cyprus Universities</span>
+            <span className="text-primary-600">Top Universities</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Choose from 7 leading universities offering diverse programs and
@@ -38,7 +38,7 @@ const Universities = () => {
           <div className="relative w-full h-64 md:h-80 lg:h-[500px]">
             <Image
               src="/assets/landing-images/hero.webp"
-              alt="Cyprus Universities"
+              alt="Top Universities"
               fill
               className="object-cover"
               priority

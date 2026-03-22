@@ -41,9 +41,7 @@ const StartJourney = () => {
               </h3>
             </div>
             <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
-              To become a leading education consultancy recognized for excellence,
-              trust, and impactful guidance, empowering students to build
-              successful global careers.
+              To be recognized as a trusted global education advisory brand, delivering internationally aligned guidance and facilitating academic mobility worldwide.
             </p>
           </div>
         </div>
