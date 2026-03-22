@@ -9,6 +9,14 @@ import { createPortal } from "react-dom";
 import InquireFormModal from "../modal/InquireForm";
 import { InquireButton } from "../ui/InquireButton";
 
+// ✅ NEW: Social Icons
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
+  FaTiktok,
+} from "react-icons/fa";
+
 const navItems = [
   { label: "Home", href: ROUTES.home },
   { label: "Universities", href: ROUTES.universities },
@@ -16,6 +24,47 @@ const navItems = [
   { label: "FAQ", href: ROUTES.faq },
   { label: "About", href: ROUTES.aboutUs },
 ];
+
+// ✅ Social Icons Component
+const SocialIcons = () => {
+  return (
+    <div className="flex items-center gap-3">
+      <a
+        href="https://www.facebook.com/aarohieduconsultancy"
+        target="_blank"
+        className="text-sky-500 hover:text-sky-600 transition-all hover:scale-110"
+      >
+        <FaFacebookF size={25} />
+      </a>
+      <a
+        href="https://www.instagram.com/aarohieducation.ho/"
+        target="_blank"
+        className="text-sky-500 hover:text-sky-600 transition-all hover:scale-110"
+      >
+        <FaInstagram size={25} />
+      </a>
+      <a
+        href="https://www.linkedin.com/company/aarohi-education-consultancy/"
+        target="_blank"
+        className="text-sky-500 hover:text-sky-600 transition-all hover:scale-110"
+      >
+        <FaLinkedinIn size={25} />
+      </a>
+      <a
+        href="https://www.tiktok.com/@aarohi_educonsultancy"
+        target="_blank"
+        className="text-sky-500 hover:text-sky-600 transition-all hover:scale-110"
+      >
+        <FaTiktok size={25} />
+      </a>
+      <a
+        href=""
+        target="_blank"
+        className="text-sky-500 hover:text-sky-600 transition-all hover:scale-110"
+      ></a>
+    </div>
+  );
+};
 
 // Desktop Navigation Component
 interface NavigationProps {
@@ -37,8 +86,9 @@ const DesktopNavigation = ({ onInquireClick }: NavigationProps) => (
       ))}
     </nav>
 
-    {/* Desktop CTA Button */}
+    {/* Desktop CTA + Social */}
     <div className="hidden md:flex items-center gap-4">
+      <SocialIcons /> {/* ✅ Added */}
       <InquireButton onClick={onInquireClick} size="md" />
     </div>
   </>
@@ -78,7 +128,6 @@ const MobileNavigation = ({
       </svg>
     </button>
 
-    {/* Sliding Sidebar for Mobile (portal to body to avoid stacking-context issues) */}
     {typeof document !== "undefined" &&
       createPortal(
         <AnimatePresence>
@@ -94,7 +143,7 @@ const MobileNavigation = ({
               {/* Backdrop */}
               <div className="absolute inset-0 bg-black/50 z-[12000]" />
 
-              {/* Side Drawer Menu Panel */}
+              {/* Drawer */}
               <motion.aside
                 initial={{ x: "100%" }}
                 animate={{ x: 0 }}
@@ -103,6 +152,7 @@ const MobileNavigation = ({
                 onClick={(e) => e.stopPropagation()}
                 className="fixed inset-y-0 right-0 w-[84%] max-w-sm bg-white p-5 overflow-auto z-[12001] shadow-2xl ring-1 ring-black/5"
               >
+                {/* Header */}
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-3">
                     <div className="h-10 w-10 rounded-2xl bg-white shadow-sm ring-1 ring-black/5 flex items-center justify-center">
@@ -123,46 +173,36 @@ const MobileNavigation = ({
                       </p>
                     </div>
                   </div>
+
                   <button
                     onClick={() => setIsMenuOpen(false)}
-                    aria-label="Close menu"
-                    className="p-2.5 rounded-full bg-white shadow-sm ring-1 ring-black/5 hover:bg-primary-50 transition-colors"
+                    className="p-2.5 rounded-full bg-white shadow-sm ring-1 ring-black/5 hover:bg-primary-50"
                   >
-                    <svg
-                      className="w-5 h-5 text-black"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d={"M6 18L18 6M6 6l12 12"}
-                      />
-                    </svg>
+                    ✕
                   </button>
                 </div>
 
+                {/* Nav Links */}
                 <nav className="mt-8 flex flex-col gap-3">
                   {navItems.map((item) => (
                     <Link
                       key={item.label}
                       href={item.href}
                       onClick={() => setIsMenuOpen(false)}
-                      className="group w-full rounded-xl bg-white px-4 py-3 text-base font-semibold text-slate-900 shadow-sm transition-all hover:text-primary-700"
+                      className="group w-full rounded-xl px-4 py-3 text-base font-semibold text-slate-900 shadow-sm hover:text-primary-700"
                     >
-                      <span className="flex items-center justify-between">
-                        <span>{item.label}</span>
-                        <span className="text-base font-medium text-slate-400 transition-colors group-hover:text-primary-500">
-                          →
-                        </span>
-                      </span>
+                      {item.label}
                     </Link>
                   ))}
                 </nav>
 
-                <div className="mt-8 flex justify-center">
+                {/* ✅ Social Icons in Mobile */}
+                <div className="mt-6 flex justify-center">
+                  <SocialIcons />
+                </div>
+
+                {/* CTA */}
+                <div className="mt-6 flex justify-center">
                   <InquireButton
                     onClick={() => {
                       setIsMenuOpen(false);
@@ -183,59 +223,42 @@ const MobileNavigation = ({
 
 // Logo Component
 const Logo = () => (
-  <Link href={ROUTES.home} aria-label="Go to landing page">
-    <div className="flex-shrink-0 flex items-center gap-3">
-      <div className="w-32 h-32 md:w-40 md:h-36 relative flex items-center justify-center scale-165 origin-left">
-        <Image
-          src="/assets/logo/logo.png"
-          alt="Aarohi Education Logo"
-          width={500}
-          height={500}
-          className="object-contain"
-          priority
-        />
-      </div>
+  <Link href={ROUTES.home}>
+    <div className="flex items-center">
+      <Image
+        src="/assets/logo/logo.png"
+        alt="Logo"
+        width={200}
+        height={200}
+        className="object-contain"
+      />
     </div>
   </Link>
 );
 
-// Main Header Component
+// Main Header
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const handleInquireClick = () => {
-    setIsModalOpen(true);
-  };
-
-  const handleCloseModal = () => {
-    setIsModalOpen(false);
-  };
-
   return (
     <>
-      <header className="bg-white backdrop-blur-sm z-[11000] overflow-visible">
-        <div className="px-4 sm:px-6 lg:px-8 overflow-visible">
-          {/* Header Content */}
-          <div className="flex justify-between md:justify-between items-center py-3 md:py-4 px-2 md:px-10 overflow-visible">
-            {/* Logo */}
-            <Logo />
-
-            {/* Desktop Navigation */}
-            <DesktopNavigation onInquireClick={handleInquireClick} />
-
-            {/* Mobile Navigation */}
-            <MobileNavigation
-              isMenuOpen={isMenuOpen}
-              setIsMenuOpen={setIsMenuOpen}
-              onInquireClick={handleInquireClick}
-            />
-          </div>
+      <header className="bg-white z-[11000]">
+        <div className="flex justify-between items-center px-4 md:px-10 py-4">
+          <Logo />
+          <DesktopNavigation onInquireClick={() => setIsModalOpen(true)} />
+          <MobileNavigation
+            isMenuOpen={isMenuOpen}
+            setIsMenuOpen={setIsMenuOpen}
+            onInquireClick={() => setIsModalOpen(true)}
+          />
         </div>
       </header>
 
-      {/* Inquire Form Modal */}
-      <InquireFormModal isOpen={isModalOpen} onClose={handleCloseModal} />
+      <InquireFormModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+      />
     </>
   );
 };
